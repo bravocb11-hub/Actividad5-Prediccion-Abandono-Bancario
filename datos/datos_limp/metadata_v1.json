@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "dataset_origen": "Kaggle: shantanudhakadd/bank-customer-churn-prediction",
+  "sha256_original": "3996cd1fa372e0db0cd9c0ebac35bbd4e8e3c65fb942bb010c826e7b1eeef0a0",
+  "sha256_limpio": "7ea085af2bf7f8a47b584daf7f646d8dba0d8296eb8171fa46c4734f0f74e7eb",
+  "filas_originales": 10000,
+  "filas_limpias": 10000,
+  "duplicados_eliminados": 0,
+  "columnas_excluidas": [
+    "RowNumber",
+    "CustomerId",
+    "Surname"
+  ],
+  "criterio_nulos": "Imputación dentro del pipeline ajustado solo con entrenamiento"
+}
