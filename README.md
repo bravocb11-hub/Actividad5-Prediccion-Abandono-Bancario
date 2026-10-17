@@ -3,7 +3,7 @@
 Proyecto académico de clasificación binaria, con dataset público de Kaggle `shantanudhakadd/bank-customer-churn-prediction`. No contiene información de clientes reales de una institución identificada.
 
 ## Reproducción
-1. Colocar el notebook personal modificado (`.ipynb`) dentro de `notebooks/` y abrirlo en Google Colab.
+1. Acceder a la carpeta `notebooks/` del repositorio y abrir el archivo `Actividad_5_Gestión_de_Proyectos_de_Inteligencia_Artificial.ipynb` en Google Colab para reproducir el procedimiento experimental.
 2. Reiniciar el entorno y ejecutar las celdas secuencialmente; se requiere conexión para instalar dependencias y obtener el dataset de Kaggle.
 3. Revisar los archivos exportados y los experimentos de MLflow.
 4. Para conservar la trazabilidad completa, guardar el ZIP de evidencias que exporta el notebook, con `mlflow.db`, `mlartifacts`, `modelos` y `datos`.
