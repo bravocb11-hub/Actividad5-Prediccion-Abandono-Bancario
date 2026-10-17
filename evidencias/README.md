@@ -1,34 +1,33 @@
 # Evidencias de ejecución
 
-Esta carpeta contiene las evidencias complementarias generadas durante el desarrollo de la Actividad 5 de Gestión de Proyectos de Inteligencia Artificial.
+Esta carpeta reúne las evidencias generadas durante la ejecución del proyecto académico de predicción de abandono bancario, correspondiente a la Actividad 5 de Gestión de Proyectos de Inteligencia Artificial.
 
-## Archivo de evidencias
+## Archivo principal
 
-- `Actividad 5 Gestión de Proyectos de Inteligencia Artificial.zip`: archivo comprimido que reúne las evidencias exportadas durante la ejecución del proyecto.
+**Actividad5_evidencias_final.zip**
 
-## Propósito de las evidencias
+Este archivo contiene los resultados experimentales, los registros de seguimiento y los artefactos generados durante el entrenamiento y la evaluación de los modelos de clasificación.
 
-El archivo permite conservar y consultar los resultados y artefactos asociados con el proceso experimental, facilitando la revisión académica y la trazabilidad de las actividades realizadas.
+## Contenido de las evidencias
 
-El proyecto contempla:
+- **MLflow:** base de datos `mlflow.db`, registros de ejecuciones y artefactos asociados.
+- **Modelos:** archivos serializados de Regresión Logística y Random Forest.
+- **Datos:** conjuntos originales y procesados utilizados en el experimento.
+- **Resultados:** métricas de evaluación, matrices de confusión, comparaciones entre algoritmos y resultados de optimización de hiperparámetros.
+- **Visualizaciones:** gráficas de calidad de datos, desempeño de modelos, análisis de umbrales e importancia de variables.
+- **Trazabilidad:** manifiesto de archivos y resumen de experimentos.
 
-- Preparación y procesamiento del conjunto de datos.
-- Entrenamiento de Regresión Logística y Random Forest.
-- Optimización de hiperparámetros mediante GridSearchCV.
-- Validación cruzada estratificada.
-- Evaluación comparativa de modelos.
-- Seguimiento de experimentos mediante MLflow.
+## Resultados principales
 
-## Reproducibilidad
+| Modelo | Accuracy | F1 | ROC-AUC |
+|---|---:|---:|---:|
+| Regresión Logística | 0.7135 | 0.4987 | 0.7772 |
+| Random Forest | 0.8365 | 0.6246 | 0.8614 |
 
-La implementación del proyecto se encuentra en `../notebooks/`, mientras que las tablas y visualizaciones principales están disponibles en `../resultados/`.
+En esta ejecución, Random Forest presentó el mejor desempeño global en las métricas analizadas.
 
-El directorio `../mlflow/` incluye un resumen de los experimentos registrados.
+## Consulta y reproducción
 
-Para reproducir los resultados, se recomienda consultar el notebook, ejecutar sus celdas secuencialmente y utilizar las dependencias documentadas en `../requirements.txt`.
+Para revisar las evidencias, descarga y descomprime `Actividad5_evidencias_final.zip`. El procedimiento de entrenamiento puede consultarse en el notebook disponible en `../notebooks/`.
 
-## Consideraciones
-
-Las evidencias corresponden a un ejercicio académico realizado con un conjunto de datos público. No se utilizan datos reales de clientes de una institución bancaria identificada.
-
-Los artefactos y modelos serializados deben cargarse únicamente en entornos confiables y con las dependencias compatibles.
+Los resultados corresponden a una ejecución académica con datos públicos. No representan predicciones operativas sobre clientes reales.
