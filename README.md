@@ -8,7 +8,7 @@ Proyecto académico de clasificación binaria, con dataset público de Kaggle `s
 3. Revisar los archivos exportados y los experimentos de MLflow.
 4. Para conservar la trazabilidad completa, guardar el ZIP de evidencias que exporta el notebook, con `mlflow.db`, `mlartifacts`, `modelos` y `datos`.
 
-## Resultados verificados
+## Resultados de la ejecución final
 - Regresión logística: ROC-AUC 0.777165, F1 0.498688.
 - Random Forest: ROC-AUC 0.861421, F1 0.624569.
 - Validación cruzada estratificada de cinco particiones y GridSearchCV.
