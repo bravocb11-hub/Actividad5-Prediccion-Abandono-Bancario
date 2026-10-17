@@ -14,7 +14,7 @@ Proyecto académico de clasificación binaria, con dataset público de Kaggle `s
 - Validación cruzada estratificada de cinco particiones y GridSearchCV.
 
 ## Organización
-- `notebooks/`: aquí debes agregar tu notebook personal modificado con el nombre que elegiste.
+- notebooks/: contiene el notebook ejecutado Actividad_5_Gestión_de_Proyectos_de_Inteligencia_Artificial.ipynb, que integra la preparación y limpieza de datos, entrenamiento de modelos de clasificación, optimización de hiperparámetros mediante GridSearchCV, validación cruzada, evaluación comparativa y seguimiento de experimentos con MLflow.
 - `resultados/`: tablas y figuras derivadas de la ejecución.
 - `docs/`: reporte técnico.
 
