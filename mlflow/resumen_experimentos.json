@@ -13,7 +13,7 @@
       "roc_auc": 0.861420742776675,
       "cv_roc_auc_mean": 0.8573923009505832,
       "cv_roc_auc_std": 0.012642876232492183,
-      "model__C": NaN,
+      "model__C": null,
       "model__class_weight": "balanced",
       "model__max_depth": "10",
       "model__min_samples_leaf": "3",
@@ -31,9 +31,9 @@
       "cv_roc_auc_std": 0.02053333500895233,
       "model__C": "1.0",
       "model__class_weight": "balanced",
-      "model__max_depth": NaN,
-      "model__min_samples_leaf": NaN,
-      "model__n_estimators": NaN
+      "model__max_depth": null,
+      "model__min_samples_leaf": null,
+      "model__n_estimators": null
     }
   ],
   "experimento_mlflow": "Actividad5_Churn_Comparacion_v2",
